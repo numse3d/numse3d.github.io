@@ -6,16 +6,17 @@
 
 <p>og han spiser muggen chocolade mader :D</p>
 <style>
-#div1, #div2 {
+#div1, #div2 #div3 {
     width: 350px;
     height: 70px;
     padding: 10px;
     border: 1px solid #aaaaaa;
   }
   </style>
-  <script>
-  function allowDrop(ev) {
-    ev.preventDefault();
+
+<script>
+    function allowDrop(ev) {
+        ev.preventDefault();
   }
   
   function drag(ev) {
@@ -23,16 +24,22 @@
   }
   
   function drop(ev) {
-    ev.preventDefault();
+      ev.preventDefault();
     var data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
-  }
-  </script>
-  </head>
+}
+</script>
+</head>
   <body>
-  
-  <p>Drag the W3Schools image into the rectangle:</p>
-  
+      
+      <p>Drag the image of your home country into the rectangle:</p>
+      
+      <aside><video width="320" height="240" autoplay>
+        <source src="tokefonk_1708526689089.mp4" type="video/mp4">
+        <source src="tokefonk_1708526689089.mp4" type="video/ogg">
+      Your browser does not support the video tag.
+      </video>
+      </aside> 
   <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
   <br>
   <img id="drag1" src="Flag_of_Sweden.svg.png" draggable="true" ondragstart="drag(event)" width="336" height="69">
