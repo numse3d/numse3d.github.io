@@ -30,5 +30,5 @@ to  {color: yellow;}
 }
 #lugter:hover +#toke_hus{
     display:block; 
-    transition: visibility 0.3s; 
+    transition: visibility 0.1s; 
 }
