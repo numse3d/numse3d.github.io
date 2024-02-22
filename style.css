@@ -32,7 +32,7 @@ to  {color: yellow;}
     transition: visibility 0.3s ease;
 }
 
-#toke_hus:hover {
+#toke_hus :hover {
     visibility: visible;
 }
 
