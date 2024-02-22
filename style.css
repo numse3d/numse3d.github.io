@@ -14,3 +14,12 @@ p {
 @keyframes myrotate{
     50%{transform: rotate(360deg);}
 }
+#lugter{
+    color:blue ; 
+animation-name: lugter_af;
+animation-duration: 3s infinite;
+}
+@keyframes lugter_af {
+from {color:blue;}
+to  {color: yellow;}
+}
