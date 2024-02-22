@@ -16,8 +16,8 @@ p {
 }
 #lugter{
     color:blue ; 
-animation-name: lugter_af;
-animation-duration: 3s infinite;
+animation: lugter_af 3s infinite;
+border-style: none;
 }
 @keyframes lugter_af {
 from {color:blue;}
