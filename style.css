@@ -5,6 +5,12 @@ p {
     color: yellow;border-color:gold;border-style: groove;
 }
 #transform {
-    transform:rotate(30deg) ;position: relative ;
-    left: 50% ;
+    position: relative;
+     left: 50%;
+    animation: myrotate 3s infinite;
+
+
+}
+@keyframes myrotate{
+    50%{transform: rotate(360deg);}
 }
