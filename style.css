@@ -23,8 +23,22 @@ border-style: none;
 from {color:blue;}
 to  {color: yellow;}
 }
-#toke_hus:hover img{
-    position: relative ;
-    left:50%;    height: 700; width:  350;
-visibility: visible;
+#toke_hus {
+    position: relative;
+    left: 50%;
+    height: 700px;
+    width: 350px;
+    visibility: hidden;
+    transition: visibility 0.3s ease;
+}
+
+#toke_hus:hover {
+    visibility: visible;
+}
+
+#toke_hus img {
+    position: relative;
+    left: 50%;
+    height: 700px;
+    width: 350px;
 }
