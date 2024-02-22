@@ -2,7 +2,7 @@ body {
     background-color: blue;
 }
 p {
-    color: yellow;border-color:gold;
+    color: yellow;border-color:gold;border-style: groove;
 }
 #transform {
     transform:rotate(30deg) ; transform:scale(2,3)
