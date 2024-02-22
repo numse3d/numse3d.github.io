@@ -26,13 +26,9 @@ to  {color: yellow;}
 #toke_hus {
     position: relative;
     left: 50%;
-    height: 700px;
-    width: 350px;
-    visibility: hidden;
-    transition: visibility 0.3s ease;
+    display: none;
 }
-
-#toke_hus :hover {
-    visibility: visible;
+#lugter:hover +#toke_hus{
+    display:block; 
+    transition: visibility 0.3s; 
 }
-
