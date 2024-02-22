@@ -24,5 +24,7 @@ from {color:blue;}
 to  {color: yellow;}
 }
 #toke_hus:hover{
+    position: relative ;
+    left:50%;    height: 700; width:  350;
 opacity: 1;
 }
