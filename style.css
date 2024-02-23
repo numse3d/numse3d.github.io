@@ -35,11 +35,11 @@ to  {color: yellow;}
 a:link{
 color:yellow ;
 }
-a:visited{
+#togood:visited{
 color:blue
 }
 a:hover{
-    color:goldenrod;
+    color:rgb(255, 183, 0);
 }
 a {
     border-style: none}
