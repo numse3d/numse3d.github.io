@@ -46,3 +46,7 @@ a {
     li{
 display:inline;
     }
+
+a:visited{
+color:yellow ;
+}
