@@ -32,3 +32,12 @@ to  {color: yellow;}
     display:block; 
     transition: visibility 0.1s; 
 }
+a:link{
+color:yellow;
+}
+a:visited{
+color:blue
+}
+a:hover{
+    color:goldenrod
+}
