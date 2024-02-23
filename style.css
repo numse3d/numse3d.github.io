@@ -33,11 +33,13 @@ to  {color: yellow;}
     transition: visibility 0.1s; 
 }
 a:link{
-color:yellow;
+color:yellow ;
 }
 a:visited{
 color:blue
 }
 a:hover{
-    color:goldenrod
+    color:goldenrod;
 }
+a {
+    border-style: none}
