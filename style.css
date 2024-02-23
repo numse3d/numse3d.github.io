@@ -43,3 +43,6 @@ a:hover{
 }
 a {
     border-style: none}
+    li{
+display:inline;
+    }
